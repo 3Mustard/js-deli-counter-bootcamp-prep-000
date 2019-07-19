@@ -19,7 +19,8 @@ function currentLine(current){
   } else {
     var lineObj = {};
     for (var i = 1; i <= current.length; i++){
-      lineObj.
+      lineObj[i] = current[i - 1];
     }
+    return `The line is currently: ${lineObj}`;
   }
 }
