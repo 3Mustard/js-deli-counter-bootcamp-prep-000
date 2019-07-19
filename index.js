@@ -19,7 +19,7 @@ function currentLine(current){
   } else {
     var lineObj = {};
     for (var i = 1; i <= current.length; i++){
-      
+      lineObj.
     }
   }
 }
