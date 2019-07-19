@@ -18,8 +18,8 @@ function currentLine(current){
     return "The line is currently empty.";
   } else {
     var lineObj = {};
-    for (var i = 1; i <= current.length; i++){
-      lineObj[i] = ;
+    for (var i = 0; i < current.length; i++){
+      lineObj[i+1] = current[i];
     }
     return `The line is currently: ${lineObj}`;
   }
