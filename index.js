@@ -8,6 +8,7 @@ function nowServing(currentLine){
   if (currentLine === []){
     return "There is no one in line.";
   } else {
-    var serving = currentLine.
+    var serving = currentLine.shift();
+    return `Now serving ${serving}.`;
   }
 }
